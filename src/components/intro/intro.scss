@@ -1,0 +1,57 @@
+@import "../../global.scss";
+@font-face { font-family: Stigma; 
+             src: url('Stigma Display Typeface.ttf'); } 
+
+.Intro{
+    background-color:transparent;
+    color: $txtColour;
+    font-family: Stigma;
+    font-size: 14vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    .left{
+        font-family: inherit;
+        color: inherit;
+        margin-right: -25vw;
+        margin-bottom: 22.2vw;
+        z-index: 1;
+    }
+    .botImg{
+        position: relative;
+        background-color: red;
+        width: 32vw;
+        height: 25vw;
+        overflow: hidden;
+        margin-right: -18vw;
+        z-index: 0;
+    }
+    .topImg{
+        position: absolute;
+        display: block;
+        margin: auto;
+        
+        background-color: orange;
+        width: 25vw;
+        height: 20vw;
+        z-index: 2;
+    }
+    .right{
+        position: relative;
+        font-family: inherit;
+        color: inherit;
+        margin-top: 24.9vw;
+        z-index: 3;
+        h3{
+            position: absolute;
+            font-size: 2vw;
+            top: 12vw;
+            right: 10px;
+        }
+
+        
+        
+    }
+    
+}
