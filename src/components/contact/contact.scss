@@ -2,6 +2,10 @@
 .Contact{
     background-color: $bgColour;
     display: flex;
+    .space{
+        font-size: 60px;
+        opacity: 0;
+    }
 
     .left{
         flex: 1;

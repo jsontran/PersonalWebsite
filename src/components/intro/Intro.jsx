@@ -11,20 +11,20 @@ export default function Intro() {
             backSpeed: 60,
             strings: ["Developer", "Designer", "Student"]
         })
-        
+
     }, [])
     return (
         <div className="Intro" id="Intro">
             <div className="left">
                 JASON
             </div>
-            <img src="" className="botImg" alt=""/>
-            <img src="" className="topImg" alt=""/>
+            <img src="./Assets/bot.jpg" className="botImg" alt="" />
+            <img src="./Assets/pfp.jpg" className="topImg" alt="" />
             <div className="right">
                 TRAN
                 <h3><span ref={textRef}></span></h3>
             </div>
-            
+
         </div>
     )
 }
