@@ -15,16 +15,13 @@ export default function Intro() {
     }, [])
     return (
         <div className="Intro" id="Intro">
-            <div className="left">
-                JASON
+            <div className="top">
+                jason
             </div>
-            <img src="./Assets/bot.jpg" className="botImg" alt="" />
-            <img src="./Assets/pfp.jpg" className="topImg" alt="" />
-            <div className="right">
-                TRAN
-                <h3><span ref={textRef}></span></h3>
+            <div className="bot">
+                tran
             </div>
-
+            <h3><span ref={textRef}></span></h3>
         </div>
     )
 }

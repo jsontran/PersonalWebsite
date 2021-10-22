@@ -1,65 +1,38 @@
 @import "../../global.scss";
-@font-face { font-family: Stigma; 
-             src: url('../../Stigma Display Typeface.ttf'); } 
+@font-face { font-family: BlinktwiceRegular; 
+             src: url('../../BlinktwiceRegular.otf'); } 
 
 .Intro{
+    
+    height: 100%;
+    width: 100%;
     background-color:$bgColour;
     color: $txtColour;
-    font-family: Stigma;
-    font-size: 14vw;
+
+    font-family: BlinktwiceRegular;
+    font-size: 300px;
     display:flex;
+
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
     
     
    
-    .left{
+    .top{
         font-family: inherit;
         color: inherit;
-        margin-right: -25vw;
-        margin-bottom: 22.2vw;
-        z-index: 1;
     }
-    .botImg{
-        position: relative;
-        background-color: rgb(167, 167, 167);
-        width: 32vw;
-        height: 25vw;
-        overflow: hidden;
-        margin-right: -18vw;
-        z-index: 0;
-        border: none;
-        object-fit: cover;
-    }
-    .topImg{
-        position: absolute;
-        display: block;
-        margin: auto;
+    .bot{
         
-        background-color: rgb(228, 228, 228);
-        width: 20vw;
-        height: 20vw;
-        z-index: 2;
-        
-        border: none;
-        object-fit: cover;
-    }
-    .right{
-        position: relative;
         font-family: inherit;
-        color: inherit;
-        margin-top: 24.9vw;
-        z-index: 3;
-        h3{
-            position: absolute;
-            font-size: 2vw;
-            top: 12vw;
-            right: 10px;
-        }
-
-        
-        
+        color: $txtColour;
+        font-size: inherit;
+        margin-top: -100px;
+        z-index: 5;
+    }
+    h3{
+        font-size: 0;
     }
     
 }
