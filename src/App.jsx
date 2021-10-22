@@ -1,6 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Spotlight from "./components/spotlight/Spotlight";
 import Intro from "./components/intro/Intro";
+import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu.jsx";
@@ -19,6 +20,7 @@ function App() {
 
       <div className="sections">
         <Intro />
+        <About />
         <Spotlight />
         <Portfolio />
         <Contact />
