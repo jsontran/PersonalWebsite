@@ -13,9 +13,6 @@
     color: $txtColour;
 
     
-    
-
-    
     .wrapper{
         display: flex;
         flex-direction: column;
@@ -25,8 +22,6 @@
         overflow: hidden;
         padding-top: 25vh;
         font-weight: bolder;
-
-
 
         .logo{
         font-family: Helmswald;
@@ -39,7 +34,7 @@
             font-family: inherit;
             color: transparent;
             opacity: 0.12;
-            -webkit-text-stroke: 3px black;
+            -webkit-text-stroke: 5px #0000001c;
         }
         .bot{
             font-size: 48vh;
@@ -48,7 +43,7 @@
             margin-top: -14vh;
             color: transparent;
             opacity: 0.12;
-            -webkit-text-stroke: 3px black;
+            -webkit-text-stroke: 5px #0000001c;
             
         }
         h3{
