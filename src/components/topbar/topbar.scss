@@ -1,6 +1,6 @@
 @import "../../global.scss";
-@font-face { font-family: Stigma; 
-             src: url('../../Stigma Display Typeface.ttf'); } 
+@font-face { font-family: Helmswald; 
+             src: url('../../Helmswald Post demo.otf'); } 
 
 .Topbar{
     width: calc(100vw - 53px);
@@ -26,7 +26,7 @@
             .logo{
                 font-size: 30px;
                 font-weight: 700;
-                font-family: Stigma;
+                font-family: Helmswald;
                 text-decoration: none;
                 color: $txtColour;
 

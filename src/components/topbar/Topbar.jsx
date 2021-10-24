@@ -7,7 +7,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
                     <div className="logo">
-                        JASON TRAN
+                        J.T
                     </div>
                 </div>
 

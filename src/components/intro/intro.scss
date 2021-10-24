@@ -1,6 +1,9 @@
 @import "../../global.scss";
-@font-face { font-family: BlinktwiceRegular; 
-             src: url('../../BlinktwiceRegular.otf'); } 
+@font-face { font-family: Stigma; 
+             src: url('../../Stigma Display Typeface.ttf'); } 
+
+@font-face { font-family: Helmswald; 
+             src: url('../../Helmswald Post demo.otf'); } 
 
 .Intro{
     
@@ -9,30 +12,50 @@
     background-color:$bgColour;
     color: $txtColour;
 
-    font-family: BlinktwiceRegular;
-    font-size: 300px;
-    display:flex;
+    
+    
 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     
-    
-   
-    .top{
-        font-family: inherit;
-        color: inherit;
-    }
-    .bot{
-        
-        font-family: inherit;
-        color: $txtColour;
-        font-size: inherit;
-        margin-top: -100px;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Stigma;
+        overflow: hidden;
+        padding-top: 25vh;
+        font-weight: bolder;
+
+
+
+        .logo{
+        font-family: Helmswald;
+        font-size: 30vh;
+        margin-bottom: -62vh;
         z-index: 5;
+        }
+        .top{
+            font-size: 40vh;
+            font-family: inherit;
+            color: transparent;
+            opacity: 0.12;
+            -webkit-text-stroke: 3px black;
+        }
+        .bot{
+            font-size: 48vh;
+            font-family: inherit;
+            color: $txtColour;
+            margin-top: -14vh;
+            color: transparent;
+            opacity: 0.12;
+            -webkit-text-stroke: 3px black;
+            
+        }
+        h3{
+            font-size: 0;
+        }
+
     }
-    h3{
-        font-size: 0;
-    }
+    
     
 }
