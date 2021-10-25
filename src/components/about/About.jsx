@@ -5,11 +5,7 @@ import Fade from 'react-reveal/Fade';
 export default function About() {
     return (
         <div className="About" id="About">
-            <Fade top>
-                <div className="title">
-                    ABOUT.ME
-                </div>
-            </Fade>
+
             <div className="content">
                 <div className="wrapper">
 
@@ -23,6 +19,11 @@ export default function About() {
 
                     </div>
                     <div className="right">
+                        <Fade top>
+                            <div className="title">
+                                ABOUT.ME
+                            </div>
+                        </Fade>
                         <Fade top>
                             <div className="text">
 
