@@ -3,7 +3,6 @@ import "./spotlight.scss"
 export default function Spotlight() {
     return (
         <div className="Spotlight" id="Spotlight">
-            <div className="space"> hello</div>
             <h1> Experience</h1>
             <div className="container">
                 <div className="card">
