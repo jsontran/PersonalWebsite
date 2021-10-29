@@ -1,4 +1,6 @@
 @import "../../global.scss";
+@font-face { font-family: Stigma; 
+             src: url('../../Stigma Display Typeface.ttf'); } 
 
 .Spotlight{
     
@@ -8,50 +10,63 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 
     .space{
         font-size: 60px;
         opacity: 0;
     }
+    h1{
+        font-family: Stigma;
+        font-size: 100px;
+        font-weight: 100;
+    }
+
     
 
     .container{
         width:-moz-fit-content;
         width:fit-content;
-        height: 750px;
+        height: fit-content;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         
+        overflow-wrap: break-word;
 
         .card{
-            width: -moz-fit-content;
-            width: fit-content;
+            width: inherit;
             height: inherit;
             position: relative;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-           
-            font-family: Stigma;
-            overflow: hidden;
 
-            transition: all 1s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+            overflow: hidden;
 
 
             .left{
-                width: 200px;
+                width: 100px;
                 height: 100px;
                 background-color: black;
-                
-
+                overflow: hidden;
             }
-
-            .right{ 
-                width: 66vw;
+            .center{
+                width: 55vw;
+                height: fit-content;
+                overflow: hidden;
                 
+                font-size: 20px;
+                padding: 30px;
+            }
+            .right{ 
+                width: 100px;
+                height: 100px;
+
                 background-color: gray;
+                overflow: hidden;
             }
         }
     }
