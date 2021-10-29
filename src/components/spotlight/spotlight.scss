@@ -34,13 +34,10 @@
             justify-content: flex-start;
             align-items: center;
            
-            
             font-family: Stigma;
             overflow: hidden;
 
             transition: all 1s ease;
-
-            background-color: gray;
 
 
             .left{
@@ -53,6 +50,8 @@
 
             .right{ 
                 width: 66vw;
+                
+                background-color: gray;
             }
         }
     }
