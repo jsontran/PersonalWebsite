@@ -5,10 +5,12 @@ export default function Spotlight() {
         <div className="Spotlight" id="Spotlight">
             <h1> EXPERIENCE</h1>
             <div className="container">
-                <div className="card">
-                    <img src="" className="logo" alt="" />
-                    <div className="text">
-                        <div>TITLE TITLE TITLE</div>
+                <div className="cardE">
+                    <img src="" className="logoE" alt="" />
+
+                    <div className="textE">
+                        <div className="TitleE">Research Assistant</div>
+                        <div className="sTitleE">McMaster University | May 2021 - Aug 2021</div>
                         <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -22,12 +24,13 @@ export default function Spotlight() {
                             mollit anim id est laborum.
                         </div>
                     </div>
-                    <img src="./Assets/exp1.jpg" className="img" alt="" />
+                    <img src="./Assets/exp1.jpg" className="imgE" alt="" />
                 </div>
-                <div className="card">
-                    <img src="" className="logo" alt="" />
-                    <div className="text">
-                        <div>TITLE TITLE TITLE</div>
+                <div className="cardO">
+                    <img src="" className="logoO" alt="" />
+                    <div className="textO">
+                        <div className="TitleO">Research Assistant</div>
+                        <div className="sTitleO">McMaster University | May 2021 - Aug 2021</div>
                         <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -41,7 +44,7 @@ export default function Spotlight() {
                             mollit anim id est laborum.
                         </div>
                     </div>
-                    <img src="./Assets/exp1.jpg" className="img" alt="" />
+                    <img src="./Assets/exp2.jpg" className="imgO" alt="" />
                 </div>
 
 
