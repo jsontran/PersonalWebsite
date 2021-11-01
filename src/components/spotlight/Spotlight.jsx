@@ -34,8 +34,8 @@ export default function Spotlight() {
                     <div className="cardO">
                         <img src="" className="logoO" alt="" />
                         <div className="textO">
-                            <div className="TitleO">Research Assistant</div>
-                            <div className="sTitleO">McMaster University | May 2021 - Aug 2021</div>
+                            <div className="TitleO">Vice President of Marketing</div>
+                            <div className="sTitleO">DSC McMaster | Sept 2020 - April 2021</div>
                             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
