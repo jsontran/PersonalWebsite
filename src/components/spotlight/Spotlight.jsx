@@ -9,7 +9,7 @@ export default function Spotlight() {
 
                 <Fade left>
                     <div className="cardE">
-                        <img src="" className="logoE" alt="" />
+                        <img src="./Assets/mcscert.jpg" className="logoE" alt="" />
                         <div className="textE">
                             <div className="TitleE">Research Assistant</div>
                             <div className="sTitleE">McMaster University | May 2021 - Aug 2021</div>
@@ -32,7 +32,7 @@ export default function Spotlight() {
 
                 <Fade right>
                     <div className="cardO">
-                        <img src="" className="logoO" alt="" />
+                        <img src="./Assets/dsc.jpg" className="logoO" alt="" />
                         <div className="textO">
                             <div className="TitleO">Vice President of Marketing</div>
                             <div className="sTitleO">DSC McMaster | Sept 2020 - April 2021</div>
