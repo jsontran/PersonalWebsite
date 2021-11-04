@@ -4,7 +4,7 @@
 
 .Spotlight{
     
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: $bgColour;
     display: flex;
@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
+    margin-top: 100px;
 
     h1{
         font-family: Stigma;
@@ -24,6 +25,8 @@
     .container{
         width:-moz-fit-content;
         width:fit-content;
+        
+             height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -31,6 +34,9 @@
 
         .cardE{
             width: inherit;
+            
+             height: auto;
+           
             display: flex;
             align-items: center;
             justify-content: center;
@@ -53,17 +59,18 @@
 
             .imgE{
                 width: calc(55vw + 100px);
-                height: 280px;
+                height: 180px;
                 z-index: -2;
                 object-fit: cover;
                 opacity: 0.5;
-                margin-top: -230px;
+                margin-top: -150px;
                 margin-right: 90px;
             }
             
                 
             .textE{
             width: 55vw;
+             height: auto;
             position: relative;
             font-size: 20px;
             background-color: rgba(255, 255, 255, 0.85);
