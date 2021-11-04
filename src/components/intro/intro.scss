@@ -7,11 +7,13 @@
 
 .Intro{
     
-    height: 110vh;
+    top: -60px;
+    height: 100vh;
     width: 100%;
     background-color:$bgColour;
     color: $txtColour;
     overflow: hidden;
+    position: relative;
 
     
     .wrapper{

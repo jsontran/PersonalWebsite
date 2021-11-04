@@ -4,16 +4,17 @@
 
 .Topbar{
     width: calc(100vw - 53px);
-    background-color: $bgColour;
+    height: 38px;
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
     color: $mainColour;
     position: fixed;
-    margin: 25px;
+    padding: 12.5px 25px 12.5px 25px;
     z-index: 3;
     transition: all 1s ease;
     overflow: hidden;
+
     
     .wrapper{
-        
         display:flex;
         align-items: center;
         justify-content: space-between;
@@ -24,15 +25,12 @@
 
 
             .logo{
-                font-size: 30px;
+                font-size: 20px;
                 font-weight: 700;
                 font-family: Helmswald;
                 text-decoration: none;
                 color: $txtColour;
 
-                @include mobile{
-                    font-size: 35px;
-                }
             }
 
             .itemContainer{

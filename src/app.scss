@@ -15,12 +15,15 @@ html{
 .app{
     height: 100%;
     
+        overflow: hidden;
+    
 
     .sections{
         width: 100%;
         height: 1024px;
-
+        top: 60px;
         position: relative;
+
 
         &::-webkit-scrollbar{
             display:none;
