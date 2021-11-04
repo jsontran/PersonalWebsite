@@ -25,18 +25,15 @@
     .container{
         width:-moz-fit-content;
         width:fit-content;
-        
-             height: auto;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
 
         .cardE{
-            width: inherit;
             
              height: auto;
-           
             display: flex;
             align-items: center;
             justify-content: center;
@@ -49,7 +46,7 @@
             .logoE{
                 width: 100px;
                 height: 100px;
-                background-color: rgba(255, 255, 255, 0.85);;
+                background-color: rgba(255, 255, 255, 0.85);
                 overflow: hidden;
                 align-self: flex-start;
                 margin-bottom: -60px;
@@ -59,12 +56,12 @@
 
             .imgE{
                 width: calc(55vw + 100px);
-                height: 180px;
+                height: calc(370px - 10vw);
                 z-index: -2;
                 object-fit: cover;
                 opacity: 0.5;
                 margin-top: -150px;
-                margin-right: 90px;
+                margin-right: 50px;
             }
             
                 
@@ -111,7 +108,7 @@
             .logoO{
                 width: 100px;
                 height: 100px;
-                background-color: rgba(255, 255, 255, 0.85);;
+                background-color: rgba(255, 255, 255, 0.85);
                 overflow: hidden;
                 align-self: flex-end;
                 margin-bottom: -60px;
@@ -133,12 +130,12 @@
             }
             .imgO{
                 width: calc(55vw + 100px);
-                height: 280px;
+                height: calc(370px - 10vw);
                 z-index: -2;
                 object-fit: cover;
                 opacity: 0.5;
-                margin-top: -230px;
-                margin-left: 90px;
+                margin-top: -150px;
+                margin-left: 50px;
             }
             
             .textO{

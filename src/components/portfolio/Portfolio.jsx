@@ -3,24 +3,52 @@ import "./portfolio.scss"
 export default function Portfolio() {
     return (
         <div className="Portfolio" id="Portfolio">
-            <div className="space"> hello</div>
-            <h1>Portfolio</h1>
+            <h1>PORTFOLIO</h1>
             <div className="container">
-                <div className="item">
-                    <img src="" alt="" />
-                    <h3> Banking App</h3>
+                <div className="card">
+                    <div className="top">
+                        <img src="assets/right-arrow.png" className="left" alt="" />
+                        <img
+                            className="user"
+                            src=""
+                            alt=""
+                        />
+                        <img className="right" src="" alt="" />
+                    </div>
+                    <div className="center">
+                    </div>
+                    <div className="bottom">
+                    </div>
                 </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <h3> Banking App</h3>
+                <div className="card">
+                    <div className="top">
+                        <img src="assets/right-arrow.png" className="left" alt="" />
+                        <img
+                            className="user"
+                            src=""
+                            alt=""
+                        />
+                        <img className="right" src="" alt="" />
+                    </div>
+                    <div className="center">
+                    </div>
+                    <div className="bottom">
+                    </div>
                 </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <h3> Banking App</h3>
-                </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <h3> Banking App</h3>
+                <div className="card">
+                    <div className="top">
+                        <img src="assets/right-arrow.png" className="left" alt="" />
+                        <img
+                            className="user"
+                            src=""
+                            alt=""
+                        />
+                        <img className="right" src="" alt="" />
+                    </div>
+                    <div className="center">
+                    </div>
+                    <div className="bottom">
+                    </div>
                 </div>
             </div>
         </div>

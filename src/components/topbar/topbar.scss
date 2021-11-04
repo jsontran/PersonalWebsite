@@ -12,6 +12,7 @@
     z-index: 3;
     transition: all 1s ease;
     overflow: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.10);
 
     
     .wrapper{
@@ -52,6 +53,12 @@
                     font-weight: 400;
                 }
             }
+        }
+
+        .center{
+            font-family: Helmswald;
+            font-size: 20px;
+            margin-right: 1vw;
         }
 
         .right{
