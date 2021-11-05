@@ -14,13 +14,12 @@ html{
 }
 .app{
     height: 100%;
-    
-        overflow: hidden;
+    overflow: hidden;
     
 
     .sections{
         width: 100%;
-        height: 1024px;
+        height: 100vh;
         top: 60px;
         position: relative;
 

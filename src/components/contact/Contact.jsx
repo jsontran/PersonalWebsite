@@ -1,29 +1,20 @@
 import "./contact.scss"
-import { useState } from "react";
+import { Document } from 'react-pdf';
 
 export default function Contact() {
 
-    const [message, setMessage] = useState(false)
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setMessage(true);
-    }
 
     return (
         <div className="Contact" id="Contact">
-            <div className="space"> hello</div>
-            <div className="left">
-                <img src="" alt="" />
+            <h1>CONTACT</h1>
+            <div className="wrapper">
+                <div className="left">
+                </div>
+                <div className="right">
+                    <Document file="C:\Users\jason\PersonalWebsite\src\components\contact\resume.pdf" />
+                </div>
             </div>
-            <div className="right">
-                <h2>Contact.</h2>
-                <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Email" />
-                    <textarea placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
-                    {message && <span>Thanks.</span>}
-                </form>
-            </div>
+
         </div>
     )
 }
