@@ -5,6 +5,7 @@ import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu.jsx";
+import Footer from "./components/footer/Footer.jsx";
 import "./app.scss"
 import { useState } from "react";
 
@@ -24,6 +25,7 @@ function App() {
         <Spotlight />
         <Portfolio />
         <Contact />
+        <Footer />
       </div>
     </div >
   );

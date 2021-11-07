@@ -1,5 +1,10 @@
 import "./contact.scss"
-import { Document } from 'react-pdf';
+import React from 'react';
+// using ES6 modules
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+
+
+import resume from '../../resume.pdf';
 
 export default function Contact() {
 
@@ -11,7 +16,9 @@ export default function Contact() {
                 <div className="left">
                 </div>
                 <div className="right">
-                    <Document file="C:\Users\jason\PersonalWebsite\src\components\contact\resume.pdf" />
+                    <Document file={resume}>
+                        <Page pageNumber={1} />
+                    </Document>
                 </div>
             </div>
 
