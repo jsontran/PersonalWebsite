@@ -2,6 +2,7 @@ import "./about.scss"
 import Fade from 'react-reveal/Fade';
 
 
+
 export default function About() {
     return (
         <div className="About" id="About">
