@@ -16,13 +16,13 @@ export default function Contact() {
                 <div className="text">
                     <div className="textbox">
                         <h3>✵   </h3>
-                        <a href="https://www.linkedin.com/in/jsontran/" target="_blank"> EMAIL </a>
+                        <a href="mailto: jjsontran@gmail.com" target="_blank"> EMAIL </a>
                         <h3>   ✵</h3>
                     </div>
 
                     <div className="textbox">
                         <h3>✵ </h3>
-                        <a href="https://www.linkedin.com/in/jsontran/" target="_blank">GITHUB</a>
+                        <a href="https://github.com/jsontran/" target="_blank">GITHUB</a>
                         <h3> ✵</h3>
                     </div>
                     <div className="textbox">
@@ -32,7 +32,7 @@ export default function Contact() {
                     </div>
                     <div className="textbox">
                         <h3>✵ </h3>
-                        <a href="https://www.linkedin.com/in/jsontran/" target="_blank">INSTAGRAM</a>
+                        <a href="https://www.instagram.com/jtefano/" target="_blank">INSTAGRAM</a>
                         <h3> ✵</h3>
                     </div>
                 </div>
