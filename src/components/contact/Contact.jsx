@@ -1,10 +1,7 @@
 import "./contact.scss"
 import React from 'react';
-// using ES6 modules
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
 
-import resume from '../../resume.pdf';
 
 export default function Contact() {
 
@@ -15,10 +12,31 @@ export default function Contact() {
             <div className="wrapper">
                 <div className="left">
                 </div>
+                <div className="text">
+                    <div className="textbox">
+                        <h3>✥   </h3>
+                        <a href="https://www.linkedin.com/in/jsontran/" target="_blank"> EMAIL </a>
+                        <h3>   ✥</h3>
+                    </div>
+
+                    <div className="textbox">
+                        <h3>✥ </h3>
+                        <a href="https://www.linkedin.com/in/jsontran/" target="_blank">GITHUB</a>
+                        <h3> ✥</h3>
+                    </div>
+                    <div className="textbox">
+                        <h3>✥ </h3>
+                        <a href="https://www.linkedin.com/in/jsontran/" target="_blank">LINKEDIN</a>
+                        <h3> ✥</h3>
+                    </div>
+                    <div className="textbox">
+                        <h3>✥ </h3>
+                        <a href="https://www.linkedin.com/in/jsontran/" target="_blank">INSTAGRAM</a>
+                        <h3> ✥</h3>
+                    </div>
+                </div>
                 <div className="right">
-                    <Document file={resume}>
-                        <Page pageNumber={1} />
-                    </Document>
+
                 </div>
             </div>
 
