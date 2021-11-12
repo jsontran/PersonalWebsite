@@ -8,52 +8,60 @@ export default function Portfolio() {
                 <h1>PORTFOLIO</h1>
             </ Fade>
             <Fade>
+
                 <div className="container">
-                    <div className="card">
-                        <div className="top">
-                            <img src="assets/right-arrow.png" className="left" alt="" />
-                            <img
-                                className="user"
-                                src=""
-                                alt=""
-                            />
-                            <img className="right" src="" alt="" />
+                    <a href="" target="_blank">
+                        <div className="card">
+                            <div className="top">
+                                <img src="assets/p2.jpg" className="top" alt="" />
+                            </div>
+                            <div className="center">
+                                Tic-Tac-Toe Minimiax
+                            </div>
+                            <div className="bottom">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
                         </div>
-                        <div className="center">
+                    </a>
+                    <a href="" target="_blank">
+                        <div className="card">
+                            <div className="top">
+                                <img src="assets/p1.jpg" className="top" alt="" />
+
+                            </div>
+                            <div className="center">
+                                Personal Website
+                            </div>
+                            <div className="bottom">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.
+                            </div>
                         </div>
-                        <div className="bottom">
+                    </a>
+                    <a href="" target="_blank">
+                        <div className="card">
+                            <div className="top">
+                                <img src="assets/right-arrow.png" className="top" alt="" />
+
+                            </div>
+                            <div className="center">
+                                TBA
+                            </div>
+                            <div className="bottom">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.
+                            </div>
                         </div>
-                    </div>
-                    <div className="card">
-                        <div className="top">
-                            <img src="assets/right-arrow.png" className="left" alt="" />
-                            <img
-                                className="user"
-                                src=""
-                                alt=""
-                            />
-                            <img className="right" src="" alt="" />
-                        </div>
-                        <div className="center">
-                        </div>
-                        <div className="bottom">
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="top">
-                            <img src="assets/right-arrow.png" className="left" alt="" />
-                            <img
-                                className="user"
-                                src=""
-                                alt=""
-                            />
-                            <img className="right" src="" alt="" />
-                        </div>
-                        <div className="center">
-                        </div>
-                        <div className="bottom">
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </ Fade>
         </div>
