@@ -4,7 +4,9 @@ import Fade from 'react-reveal/Fade';
 export default function Spotlight() {
     return (
         <div className="Spotlight" id="Spotlight">
-            <h1> EXPERIENCE</h1>
+            <Fade>
+                <h1> EXPERIENCE</h1>
+            </Fade>
             <div className="container">
 
                 <Fade left>
