@@ -24,6 +24,20 @@ html{
         top: 60px;
         position: relative;
 
+        .angel1{
+            position: absolute;
+            width: 600px;
+            right: 10px;
+            margin-top:-200px;
+        }
+        .angel2{
+            position: absolute;
+            width: 375px;
+            opacity: 0.85;
+            left: 50px;
+            margin-top: -150px;
+        }
+
 
         &::-webkit-scrollbar{
             display:none;
@@ -33,4 +47,6 @@ html{
             width: 100%;
         }
     }
+
+    
 }

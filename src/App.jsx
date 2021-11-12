@@ -8,6 +8,7 @@ import Menu from "./components/menu/Menu.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import "./app.scss"
 import { useState } from "react";
+import Fade from 'react-reveal/Fade';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -22,7 +23,13 @@ function App() {
       <div className="sections">
         <Intro />
         <About />
+        <Fade >
+          <img className="angel1" src="assets/m1.png" alt="" />
+        </Fade>
         <Spotlight />
+        <Fade >
+          <img className="angel2" src="assets/m2.png" alt="" />
+        </Fade>
         <Portfolio />
         <Contact />
         <Footer />

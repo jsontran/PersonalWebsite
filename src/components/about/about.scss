@@ -20,6 +20,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
         
         .wrapper{
             width: -moz-fit-content;
@@ -27,60 +28,58 @@
             position: relative;
             display: flex;
             justify-content: flex-start;
-            align-items: center;
            
             
             font-family: Stigma;
             overflow: hidden;
 
-        .left{
-            width: 500px;
-            display: flex;
-            object-fit: contain;
-            overflow: hidden;
-            
-            
-            .botImg{
-                position: relative;
-                background-color: rgb(167, 167, 167);
-                width: 400px;
-                height: 500px;
+            .left{
+                width: 500px;
+                display: flex;
+                object-fit: contain;
                 overflow: hidden;
-                z-index: 0;
-                border: none;
-                object-fit: cover;
-            }
-            .topImg{
-                position: absolute;
-                display: block;
-                margin-top: 40px;
-                margin-left: 90px;
                 
-                background-color: rgb(228, 228, 228);
-                width: 400px;
-                height: 350px;
-                z-index: 2;
                 
-                border: none;
-                object-fit: cover;
-            }
-            
+                .botImg{
+                    position: relative;
+                    background-color: rgb(167, 167, 167);
+                    width: 400px;
+                    height: 500px;
+                    overflow: hidden;
+                    z-index: 0;
+                    border: none;
+                    object-fit: cover;
+                }
+                .topImg{
+                    position: absolute;
+                    display: block;
+                    margin-top: 40px;
+                    margin-left: 90px;
+                    
+                    background-color: rgb(228, 228, 228);
+                    width: 400px;
+                    height: 350px;
+                    z-index: 2;
+                    
+                    border: none;
+                    object-fit: cover;
+                }
+                
 
-        }
-        .right{
-                font-size: 20px;
-                width: 45vw;
-                margin-left: 25px;
-                margin-bottom: 102px;
+            }
+            .right{
+                    font-size: 20px;
+                    width: 45vw;
+                    margin-left: 25px;
 
-                .title{
-                font-family: Stigma;
-                font-size:100px;
-                z-index: 2;
-                margin-top: 30px;
-                
-                
-               }
+                    .title{
+                    font-family: Stigma;
+                    font-size:100px;
+                    z-index: 2;
+                    margin-top: 30px;
+                    
+                    
+                }
             }
         }
 
