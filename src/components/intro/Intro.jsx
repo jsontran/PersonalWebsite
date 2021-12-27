@@ -21,7 +21,12 @@ export default function Intro() {
                         TRAN
                     </div>
                 </Fade>
+                <Fade delay={2000}>
+                    <div className="subtitle">
+                        Jason Tran
+                    </div>
+                </Fade>
             </div>
-        </div>
+        </div >
     )
 }

@@ -50,3 +50,36 @@ html{
 
     
 }
+
+@media only screen and (max-width: 480px)  {
+    .app{
+    height: 100vh;
+    overflow: hidden;
+    
+
+    .sections{
+        width: 100%;
+        height: calc(130vh - 60px);
+        top: 60px;
+        position: relative;
+
+        .angel1{
+           display: none;
+        }
+        .angel2{
+            display: none;
+        }
+
+
+        &::-webkit-scrollbar{
+            display:none;
+        }
+
+        > * {
+            width: 100%;
+        }
+    }
+
+    
+}
+}
