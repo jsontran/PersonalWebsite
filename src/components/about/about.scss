@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 480px)  {
 .About{
-    height: 100%;
+    height: 130%;
     width: 100%;
     
     background-color:$bgColour;
@@ -148,14 +148,22 @@
             .right{
                     font-size: 20px;
                     width: 80vw;
+                    margin: 0;
+                    
 
                     .title{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     font-family: Stigma;
                     font-size:17vw;
                     z-index: 2;
                     
                     
-                }
+                    }
+                    .text{
+                        text-align: center;
+                    }
             }
         }
 
