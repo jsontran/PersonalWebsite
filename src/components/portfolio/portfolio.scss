@@ -84,7 +84,7 @@
 
 @media only screen and (max-width: 480px) {
   .Portfolio {
-    height: 165%;
+    height: auto;
     width: 100%;
     background-color: $bgColour;
     display: flex;
@@ -101,7 +101,7 @@
 
     .container {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -112,7 +112,7 @@
 
       .card {
         width: 80vw;
-        height: 50vh;
+        height: auto;
         border-radius: 10px;
         background-color: rgba($color: #ffffff, $alpha: 0.5);
         box-shadow: 0px 0px 15px -8px black;
@@ -165,7 +165,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 720px) {
   .Portfolio {
-    height: 160%;
+    height: auto;
     width: 100%;
     background-color: $bgColour;
     display: flex;
@@ -182,7 +182,7 @@
 
     .container {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -193,7 +193,7 @@
 
       .card {
         width: 65vw;
-        height: 50vh;
+        height: auto;
         border-radius: 10px;
         background-color: rgba($color: #ffffff, $alpha: 0.5);
         box-shadow: 0px 0px 15px -8px black;
@@ -246,7 +246,7 @@
 
 @media only screen and (min-width: 720px) and (max-width: 1200px) {
   .Portfolio {
-    height: 160%;
+    height: auto;
     width: 100%;
     background-color: $bgColour;
     display: flex;
@@ -263,7 +263,7 @@
 
     .container {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -274,7 +274,7 @@
 
       .card {
         width: 50vw;
-        height: 50vh;
+        height: auto;
         border-radius: 10px;
         background-color: rgba($color: #ffffff, $alpha: 0.5);
         box-shadow: 0px 0px 15px -8px black;
