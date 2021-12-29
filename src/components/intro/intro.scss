@@ -1,110 +1,147 @@
 @import "../../global.scss";
-@font-face { font-family: Stigma; 
-             src: url('../../Stigma Display Typeface.ttf'); } 
+@font-face {
+  font-family: Stigma;
+  src: url("../../Stigma Display Typeface.ttf");
+}
 
-@font-face { font-family: Helmswald; 
-             src: url('../../Helmswald Post demo.otf'); } 
+@font-face {
+  font-family: Helmswald;
+  src: url("../../Helmswald Post demo.otf");
+}
 
-.Intro{
-    
+.Intro {
+  top: -60px;
+  height: 100vh;
+  width: 100%;
+  background-color: $bgColour;
+  color: $txtColour;
+  overflow: hidden;
+  position: relative;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Stigma;
+    overflow: hidden;
+    padding-top: 25vh;
+    font-weight: bolder;
+
+    .logo {
+      font-family: Helmswald;
+      font-size: 30vh;
+      margin-bottom: -62vh;
+      z-index: 5;
+    }
+
+    .top {
+      font-size: 40vh;
+      font-family: inherit;
+      color: rgba(140, 140, 140, 0.2);
+    }
+
+    .bot {
+      font-size: 48vh;
+      font-family: inherit;
+      color: $txtColour;
+      margin-top: -14vh;
+      color: rgba(140, 140, 140, 0.2);
+    }
+    .subtitle {
+      font-size: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Intro {
     top: -60px;
     height: 100vh;
     width: 100%;
-    background-color:$bgColour;
+    background-color: $bgColour;
     color: $txtColour;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: Stigma;
-        overflow: hidden;
-        padding-top: 25vh;
-        font-weight: bolder;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Stigma;
+      overflow: hidden;
+      padding-top: 0;
+      font-weight: bolder;
 
-        .logo{
+      .logo {
         font-family: Helmswald;
-        font-size: 30vh;
+        font-size: 40vw;
         margin-bottom: -62vh;
         z-index: 5;
-        }
+      }
 
-        .top{
-            font-size: 40vh;
-            font-family: inherit;
-            color: transparent;
-            -webkit-text-stroke: 5px #0000001c;
-        }
-        
-        .bot{
-            font-size: 48vh;
-            font-family: inherit;
-            color: $txtColour;
-            margin-top: -14vh;
-            color: transparent;
-            -webkit-text-stroke: 5px #0000001c;
-            
-        }
-        .subtitle{
-            font-size: 0;
-        }
+      .top {
+        color: rgba(140, 140, 140, 0);
+      }
 
+      .bot {
+        color: rgba(140, 140, 140, 0);
+      }
+      .subtitle {
+        margin-top: -20vh;
+        font-weight: 500;
+        font-size: 20px;
+      }
     }
-    
-    
+  }
 }
 
-@media only screen and (max-width: 480px)  {
-
-   .Intro{
-    
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+  .Intro {
     top: -60px;
     height: 100vh;
     width: 100%;
-    background-color:$bgColour;
+    background-color: $bgColour;
     color: $txtColour;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: Stigma;
-        overflow: hidden;
-        padding-top: 23vh;
-        font-weight: bolder;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Stigma;
+      overflow: hidden;
+      padding-top: 0;
+      font-weight: bolder;
 
-        .logo{
+      .logo {
         font-family: Helmswald;
-        font-size: 60vw;
+        font-size: 40vw;
         margin-bottom: -62vh;
         z-index: 5;
-        }
+      }
 
-        .top{
-            -webkit-text-stroke: 0px #0000001c;
-        }
-        
-        .bot{
-            -webkit-text-stroke: 0px #0000001c;
-            
-        }
-        .subtitle {
-            margin-top: -180px;
-            font-weight: 500;
-        }
+      .top {
+        color: rgba(140, 140, 140, 0);
+      }
 
+      .bot {
+        color: rgba(140, 140, 140, 0);
+      }
+      .subtitle {
+        margin-top: -20vh;
+        font-weight: 500;
+        font-size: 20px;
+      }
     }
-    
-    
-}
-
-
+  }
 }

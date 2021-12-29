@@ -1,85 +1,108 @@
-video{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-object-fit: cover;
-opacity: 0.1;
-z-index: -10000;
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  z-index: -10000;
 }
 
-html{
-    height: 100%;
-    overflow: hidden;
+html {
+  height: 100%;
+  overflow: hidden;
 }
-.app{
-    height: 100vh;
-    overflow: hidden;
-    
+.app {
+  height: 100vh;
+  overflow: hidden;
 
-    .sections{
-        width: 100%;
-        height: calc(100vh - 60px);
-        top: 60px;
-        position: relative;
+  .sections {
+    width: 100%;
+    height: calc(100vh - 60px);
+    top: 60px;
+    position: relative;
 
-        .angel1{
-            position: absolute;
-            width: 600px;
-            right: 10px;
-            margin-top:-200px;
-        }
-        .angel2{
-            position: absolute;
-            width: 375px;
-            opacity: 0.85;
-            left: 50px;
-            margin-top: -150px;
-        }
-
-
-        &::-webkit-scrollbar{
-            display:none;
-        }
-
-        > * {
-            width: 100%;
-        }
+    .angel1 {
+      position: absolute;
+      width: 500px;
+      right: 10px;
+      margin-top: -120px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+    .angel2 {
+      position: absolute;
+      width: 375px;
+      opacity: 0.85;
+      left: 50px;
+      margin-top: -150px;
     }
 
-    
-}
-
-@media only screen and (max-width: 480px)  {
-    .app{
-    height: 100vh;
-    overflow: hidden;
-    
-
-    .sections{
-        width: 100%;
-        height: calc(130vh - 60px);
-        top: 60px;
-        position: relative;
-
-        .angel1{
-           display: none;
-        }
-        .angel2{
-            display: none;
-        }
-
-
-        &::-webkit-scrollbar{
-            display:none;
-        }
-
-        > * {
-            width: 100%;
-        }
+    &::-webkit-scrollbar {
+      display: none;
     }
 
-    
+    > * {
+      width: 100%;
+    }
+  }
 }
+
+@media only screen and (max-width: 480px) {
+  .app {
+    height: 100vh;
+    overflow: hidden;
+
+    .sections {
+      width: 100%;
+      height: calc(130vh - 60px);
+      top: 60px;
+      position: relative;
+
+      .angel1 {
+        display: none;
+      }
+      .angel2 {
+        display: none;
+      }
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      > * {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+  .app {
+    height: 100vh;
+    overflow: hidden;
+
+    .sections {
+      width: 100%;
+      height: calc(130vh - 60px);
+      top: 60px;
+      position: relative;
+
+      .angel1 {
+        display: none;
+      }
+      .angel2 {
+        display: none;
+      }
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      > * {
+        width: 100%;
+      }
+    }
+  }
 }
