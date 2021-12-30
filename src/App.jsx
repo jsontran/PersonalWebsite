@@ -17,18 +17,18 @@ function App() {
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
-      <video src="./Videos/bg1.mp4" id="vid" autoPlay muted loop ></video>
+      <video src="./Videos/bg1.mp4" id="vid" autoPlay muted loop defaultMuted playsinline></video>
 
 
       <div className="sections">
         <Intro />
         <About />
         <Fade >
-          <img className="angel1" src="assets/m1.png" alt="" />
+          <img className="angel1" src="./Assets/m1.png" alt="" />
         </Fade>
         <Spotlight />
         <Fade >
-          <img className="angel2" src="assets/m2.png" alt="" />
+          <img className="angel2" src="./Assets/m2.png" alt="" />
         </Fade>
         <Portfolio />
         <Contact />
