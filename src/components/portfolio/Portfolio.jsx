@@ -13,7 +13,7 @@ export default function Portfolio() {
                     <a href="https://github.com/jsontran/KirbyGame" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
                         <div className="card">
                             <div className="top">
-                                <img src="assets/p3.jpg" className="top" alt="" />
+                                <img src="Assets/p3.jpg" className="top" alt="" />
                             </div>
                             <div className="center">
                                 Replication of Kirby
@@ -32,7 +32,7 @@ export default function Portfolio() {
                     <a href="https://github.com/jsontran/PersonalWebsite" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
                         <div className="card">
                             <div className="top">
-                                <img src="assets/p1.jpg" className="top" alt="" />
+                                <img src="Assets/p1.jpg" className="top" alt="" />
 
                             </div>
                             <div className="center">
@@ -47,7 +47,7 @@ export default function Portfolio() {
                     <a href="https://github.com/jsontran/KirbyGame" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
                         <div className="card">
                             <div className="top">
-                                <img src="assets/p2.jpg" className="top" alt="" />
+                                <img src="Assets/p2.jpg" className="top" alt="" />
 
                             </div>
                             <div className="center">
