@@ -2,6 +2,7 @@
   "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jsontran.github.io/PersonalWebsite/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
