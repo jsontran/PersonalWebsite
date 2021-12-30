@@ -15,7 +15,7 @@ export default function Contact() {
             <Fade>
                 <div className="wrapper">
                     <div className="left">
-                        <img src="assets/cR.png" alt="" />
+                        <img src="./Assets/cR.png" alt="" />
                     </div>
                     <Fade>
                         <div className="text">
@@ -43,7 +43,7 @@ export default function Contact() {
                         </div>
                     </Fade>
                     <div className="right">
-                        <img src="assets/cR.png" alt="" />
+                        <img src="./Assets/cR.png" alt="" />
                     </div>
                 </div>
             </Fade>
