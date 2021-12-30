@@ -16,6 +16,16 @@
   margin-top: 100px;
   margin-bottom: 200px;
 
+  text-decoration: none;
+
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: "none";
+  }
+
   h1 {
     font-family: Stigma;
     font-size: 80px;
@@ -76,6 +86,10 @@
         z-index: 0;
         padding: 15px 25px 25px 85px;
         margin-left: 15px;
+
+        .bottom {
+          text-decoration: none;
+        }
 
         .TitleE {
           overflow: hidden;

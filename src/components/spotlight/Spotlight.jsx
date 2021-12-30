@@ -33,8 +33,10 @@ export default function Spotlight() {
                             <div className="TitleO">Lead of Marketing & Branding</div>
                             <div className="sTitleO">DSC McMaster | Sept 2020 - April 2021</div>
                             <div>Powered by the Developer Student Clubs, Google Developers. The club's goal is to encourage and teach students about
-                                 Google Developer Techonolgies along with other aspects of the Software Engineering industry. As one of the Lead of Marketing & Branding, I helped 
-                                 lead a team of 20 and helped recruited over 400 members.
+                                 Google Developer Techonolgies along with other aspects of the Software Engineering industry.
+                                 
+                                 <br></br><br></br> As one of the Lead of Marketing & Branding, I helped 
+                                 lead a team of 20 and helped recruited over 400 members. I specifically worked and taught Photoshop and Figma.
 
 
                             </div>

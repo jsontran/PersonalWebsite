@@ -10,7 +10,7 @@ export default function Portfolio() {
             <Fade>
 
                 <div className="container">
-                    <a href="https://github.com/jsontran/KirbyGame" target="_blank">
+                    <a href="https://github.com/jsontran/KirbyGame" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
                         <div className="card">
                             <div className="top">
                                 <img src="assets/p3.jpg" className="top" alt="" />
@@ -29,7 +29,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </a>
-                    <a href="https://github.com/jsontran/PersonalWebsite" target="_blank">
+                    <a href="https://github.com/jsontran/PersonalWebsite" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
                         <div className="card">
                             <div className="top">
                                 <img src="assets/p1.jpg" className="top" alt="" />
@@ -44,7 +44,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </a>
-                    <a href="https://github.com/jsontran/KirbyGame" target="_blank">
+                    <a href="https://github.com/jsontran/KirbyGame" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
                         <div className="card">
                             <div className="top">
                                 <img src="assets/p2.jpg" className="top" alt="" />
