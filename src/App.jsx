@@ -17,7 +17,7 @@ function App() {
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
-      <video src="./Videos/bg1.mp4" id="vid" autoPlay muted loop defaultMuted playsinline></video>
+      <video src="./Videos/bg1.mp4" id="vid" autoPlay muted loop defaultMuted playsInline></video>
 
 
       <div className="sections">
