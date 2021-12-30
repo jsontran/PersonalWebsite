@@ -13,17 +13,15 @@ export default function Portfolio() {
                     <a href="" target="_blank">
                         <div className="card">
                             <div className="top">
-                                <img src="assets/p2.jpg" className="top" alt="" />
+                                <img src="assets/p3.jpg" className="top" alt="" />
                             </div>
                             <div className="center">
-                                Tic-Tac-Toe Minimiax
+                                Replication of Kirby
                             </div>
                             <div className="bottom">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.
+                                    Replicated the first level and the first boss battle of Kirby's Dream Land with C# using Visual Basic Express 2010.
+                                    Utilizing Sprites, Object-Oriented Programming
                                 </p>
                             </div>
                         </div>
@@ -48,11 +46,11 @@ export default function Portfolio() {
                     <a href="" target="_blank">
                         <div className="card">
                             <div className="top">
-                                <img src="assets/right-arrow.png" className="top" alt="" />
+                                <img src="assets/p2.jpg" className="top" alt="" />
 
                             </div>
                             <div className="center">
-                                TBA
+                                Tic-Tac-Toe Minimax
                             </div>
                             <div className="bottom">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
