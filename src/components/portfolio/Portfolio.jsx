@@ -10,7 +10,7 @@ export default function Portfolio() {
             <Fade>
 
                 <div className="container">
-                    <a href="" target="_blank">
+                    <a href="https://github.com/jsontran/KirbyGame" target="_blank">
                         <div className="card">
                             <div className="top">
                                 <img src="assets/p3.jpg" className="top" alt="" />
@@ -20,13 +20,16 @@ export default function Portfolio() {
                             </div>
                             <div className="bottom">
                                 <p>
-                                    Replicated the first level and the first boss battle of Kirby's Dream Land with C# using Visual Basic Express 2010.
-                                    Utilizing Sprites, Object-Oriented Programming
+                                    Replicated the first level and the first boss battle of Kirby's Dream Land with Visual Basic .NET. </p>
+                                    <br></br>
+                                    <p>
+                                    Utilizing Object-Oriented Programming, the integrated toolbox, event-handlers, and sprites, the full application is created within
+                                    the Visual Basic Express 2010.
                                 </p>
                             </div>
                         </div>
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://github.com/jsontran/PersonalWebsite" target="_blank">
                         <div className="card">
                             <div className="top">
                                 <img src="assets/p1.jpg" className="top" alt="" />
@@ -36,14 +39,12 @@ export default function Portfolio() {
                                 Personal Website
                             </div>
                             <div className="bottom">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat.
+                                By following the Odin Project's guide for basic HTML, CSS, and JavaScript, and with the addition of self-teaching myself
+                                 React and Sass using documentation and tutorials, my portfolio website was created to display my software engineering journey.
                             </div>
                         </div>
                     </a>
-                    <a href="" target="_blank">
+                    <a href="https://github.com/jsontran/KirbyGame" target="_blank">
                         <div className="card">
                             <div className="top">
                                 <img src="assets/p2.jpg" className="top" alt="" />
@@ -53,10 +54,13 @@ export default function Portfolio() {
                                 Tic-Tac-Toe Minimax
                             </div>
                             <div className="bottom">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat.
+                                <p>The classic game of Tic Tac Toe, in this version, 
+                                the player will be against the computer (which uses the Minimax Algorithm with Alpha-Beta Pruning).</p>
+                                
+                                <br></br>
+                                <p>
+                                The game is played within the terminal.
+                                </p>
                             </div>
                         </div>
                     </a>
