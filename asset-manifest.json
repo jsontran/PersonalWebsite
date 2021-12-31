@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.59cd2bc8.css",
+    "main.css": "/PersonalWebsite/static/css/main.8a7b0b60.css",
     "main.js": "/PersonalWebsite/static/js/main.b5e47e71.js",
     "static/media/Stigma Display Typeface.ttf": "/PersonalWebsite/static/media/Stigma Display Typeface.1f57a376c7cbc4f02010.ttf",
     "static/media/Helmswald Post demo.otf": "/PersonalWebsite/static/media/Helmswald Post demo.0741e101bbc59b53661e.otf",
     "index.html": "/PersonalWebsite/index.html",
-    "main.59cd2bc8.css.map": "/PersonalWebsite/static/css/main.59cd2bc8.css.map",
+    "main.8a7b0b60.css.map": "/PersonalWebsite/static/css/main.8a7b0b60.css.map",
     "main.b5e47e71.js.map": "/PersonalWebsite/static/js/main.b5e47e71.js.map"
   },
   "entrypoints": [
-    "static/css/main.59cd2bc8.css",
+    "static/css/main.8a7b0b60.css",
     "static/js/main.b5e47e71.js"
   ]
 }
