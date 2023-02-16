@@ -9,6 +9,23 @@ export default function Spotlight() {
             </Fade>
             <div className="container">
 
+                 <Fade right>
+                    <div className="cardO">
+                        <img src="./Assets/pattern.jpg" className="logoO" alt="" />
+                        <div className="textO">
+                            <div className="TitleO">Software Engineering Intern</div>
+                            <div className="sTitleO">Pattern | Sept 2020 - April 2021</div>
+                            <div>Mentored under Peter Nguyen, and Rohan Bhangui, I worked in a full-stack web development environment to solve problems for the hourly workforce.
+                                 
+                                 <br></br><br></br> Responsibilities included reducing production errors, implementing modular web components, and ensuring a high standard of quality through testing. The previous was achieved through translating design flows into responsive webpages, built flexible dashboards, and increased modularity through the use of Storybook. Furthermore, by developing support for mobile fluidity through the backend, it enhances the user experience.
+
+
+                            </div>
+                        </div>
+                        <img src="./Assets/exp2.jpg" className="imgO" alt="" />
+                    </div>
+                </Fade>
+
                 <Fade left>
                     <div className="cardE">
                         <img src="./Assets/mcscert.png" className="logoE" alt="" />

@@ -27,7 +27,7 @@ export default function About() {
                         </Fade>
                         <Fade top>
                             <div className="text">
-                                <p>Currently, I am a second year Software Engineering (Co-op) student at McMaster University, located in Hamilton, Ontario, Canada. Apart from what
+                                <p>Currently, I am a third year Software Engineering (Co-op) student at McMaster University, located in Hamilton, Ontario, Canada. Apart from what
                                     I am studying in my curriculum, I am extending my current knowledge by teaching myself front-end web development.</p>
 
                                 <br />

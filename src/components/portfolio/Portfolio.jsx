@@ -29,22 +29,42 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </a>
-                    <a href="https://github.com/jsontran/PersonalWebsite" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
+                    <a href="https://github.com/jsontran/MERN-Void" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
                         <div className="card">
                             <div className="top">
                                 <img src="Assets/p1.jpg" className="top" alt="" />
 
                             </div>
                             <div className="center">
-                                Personal Website
+                                MERN-VOID
                             </div>
                             <div className="bottom">
-                                By following the Odin Project's guide for basic HTML, CSS, and JavaScript, and with the addition of self-teaching myself
-                                 React and Sass using documentation and tutorials, my portfolio website was created to display my software engineering journey.
+                                Developed a full-stack web application to help users with self-expression and mental health by posting messages with
+                                auto-deletion from the database after 2 hours
                             </div>
                         </div>
                     </a>
                     <a href="https://github.com/jsontran/KirbyGame" target="_blank" style={{ textDecoration: 'none', color:'black' }}>
+                        <div className="card">
+                            <div className="top">
+                                <img src="Assets/london.jpg" className="top" alt="" />
+
+                            </div>
+                            <div className="center">
+                                London Transit App
+                            </div>
+                            <div className="bottom">
+                                <p>Assembled a Python application following SOLID principles to enhance urban planning around the London subway</p>
+                                
+                                <br></br>
+                                <p>
+                                Innovated Dijkstra’s, A*, and Depth First-Search algorithm to attain the most efficient path for a subset of stations
+                                and to produce urbanism diagnosis to improve future development planning
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/jsontran/KirbyGame" target="_blank" style={{ textDecoration: 'none', color: 'black' }}>
                         <div className="card">
                             <div className="top">
                                 <img src="Assets/p2.jpg" className="top" alt="" />
